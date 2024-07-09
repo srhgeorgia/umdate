@@ -1,36 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Apenas um convite</title>    
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Apenas um convite</title>
+</head>
+
+<body>
+  <div class="container">
     <div class="box">
-      <p>Copão final de semana?</p>
+      <p>Posso te ver no sábado?</p>
       <div class="buttons-container">
         <button>
-          <a
-            href="https://www.youtube.com/watch?v=tD46VAAHsNk&ab_channel=AllanMendes"
-            target="_blank"
-            >Sim</a
-          >
+          <a href="https://www.instagram.com/galeria.lama/" target="_blank">Sim</a>
         </button>
         <button id="no">Não</button>
       </div>
     </div>
-    
-  </body>
-  <script>
-    let button = document.getElementById("no");
-    let height = window.innerHeight - 50;
-    let width = window.innerWidth - 50;
+    <iframe width="300" height="315" src="https://www.youtube.com/embed/ZOfisAF09AA?autoplay=1&controls=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
 
-    button.addEventListener("mouseover", function () {
-      button.style.position = "absolute";
-      button.style.top = Math.random() * height + "px";
-      button.style.left = Math.random() * width + "px";
-    });
-  </script>
+</body>
+<script>
+  let button = document.getElementById("no");
+  let height = window.innerHeight - 50;
+  let width = window.innerWidth - 50;
+
+  button.addEventListener("mouseover", function () {
+    button.style.position = "absolute";
+    button.style.top = Math.random() * height + "px";
+    button.style.left = Math.random() * width + "px";
+  });
+</script>
+
 </html>
