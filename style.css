@@ -16,7 +16,7 @@
 }
 
 body {
-  background-image: url('https://c4.wallpaperflare.com/wallpaper/966/989/139/shrek-movies-animated-movies-dreamworks-hd-wallpaper-preview.jpg');
+  background-image: url('https://i.pinimg.com/originals/a1/7a/c9/a17ac9c12fe17b2c9c342903d15a5f15.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 16rem;
+  margin-top: 6rem;
 }
 
 .title {
